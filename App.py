@@ -9,7 +9,7 @@ from typing import List, Dict
 
 
 # Load environment variables
-openai.api_key = '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'
+openai.api_key = '<OPENAI-API-KEY>'
 
 # Use ChromaDB's ONNXMiniLM_L6_V2 embedding function
 ef = embedding_functions.ONNXMiniLM_L6_V2()
