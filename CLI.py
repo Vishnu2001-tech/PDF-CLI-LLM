@@ -2,7 +2,7 @@ import streamlit as st
 from App import add_text_to_collection, get_answer, verify_pdf_path, clear_coll
 
 def main():
-    st.title("PDF Processing Streamlit App")
+    st.title("PDF Processing Chatbot App")
 
     # Sidebar for user inputs
     st.sidebar.header("User Inputs")
