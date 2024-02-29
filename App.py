@@ -115,7 +115,7 @@ def query_collection(texts: str, n: int) -> List[str]:
     return resulting_strings
 
 def get_response(queried_texts: List[str]) -> List[Dict]:
-    # Generate response using OpenAI GPT-3.5 Turbo model
+    # Generate response using OpenAI GPT-4 model
     global messages
     messages = [
         {"role": "system", "content": "You are a helpful assistant. And will always answer the question asked in 'ques:' and \
@@ -124,7 +124,7 @@ def get_response(queried_texts: List[str]) -> List[Dict]:
     ]
 
     response = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo",
+        model="gpt-4",
         messages=messages,
         temperature=0.2,
     )
