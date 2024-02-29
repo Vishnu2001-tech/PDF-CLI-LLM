@@ -41,7 +41,8 @@ Change your current working directory to the project folder:
 
 
 . Copy code
-cd pdf-processing-chatbot
+
+2) cd pdf-processing-chatbot
 
 
 ### Create a Virtual Environment:
@@ -51,7 +52,8 @@ It's a good practice to use a virtual environment to manage dependencies. Create
 
 
 . Copy code
-python -m venv venv
+
+3) python -m venv venv
 
 ### Activate the Virtual Environment:
 
@@ -59,7 +61,8 @@ Activate the virtual environment:
 
 
 . Copy code
-.\venv\Scripts\activate
+
+4) .\venv\Scripts\activate
 
 
 ### Install Dependencies:
@@ -68,7 +71,8 @@ Install the required Python packages using pip:
 
 
 . Copy code
-pip install -r requirements.txt
+
+5) pip install -r requirements.txt
 
 ### Set Up OpenAI API Key:
 
@@ -80,7 +84,8 @@ Run the following command to launch the Streamlit app:
 
 
 . Copy code
-streamlit run app.py
+
+6) streamlit run app.py
 
 This will start a local development server, and you can view the app by visiting the provided URL (usually http://localhost:8501) in your web browser.
 
