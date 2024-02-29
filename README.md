@@ -25,7 +25,7 @@ For any textual knowledge base (in our case, PDFs), we first need to extract tex
 ## Prerequisites:
 1. Python (Version 3.7 or later)
 2. Git (Optional but recommended)
-## Steps:
+## Setup Instructions:
 ### Clone the Repository:
 
 ### 1. Clone the Repository
