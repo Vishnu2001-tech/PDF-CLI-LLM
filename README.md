@@ -40,7 +40,7 @@ If you don't have Git installed, you can download the repository as a ZIP file f
 Change your current working directory to the project folder:
 
 
-. Copy code
+
 
 2) cd pdf-processing-chatbot
 
@@ -51,7 +51,7 @@ It's a good practice to use a virtual environment to manage dependencies. Create
 
 
 
-. Copy code
+
 
 3) python -m venv venv
 
@@ -60,7 +60,7 @@ It's a good practice to use a virtual environment to manage dependencies. Create
 Activate the virtual environment:
 
 
-. Copy code
+
 
 4) .\venv\Scripts\activate
 
@@ -70,7 +70,7 @@ Activate the virtual environment:
 Install the required Python packages using pip:
 
 
-. Copy code
+
 
 5) pip install -r requirements.txt
 
@@ -83,7 +83,7 @@ Obtain an API key from OpenAI and replace <OPENAI-API-KEY> in the code with your
 Run the following command to launch the Streamlit app:
 
 
-. Copy code
+
 
 6) streamlit run app.py
 
