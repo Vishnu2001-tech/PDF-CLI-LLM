@@ -10,8 +10,9 @@ For any textual knowledge base (in our case, PDFs), we first need to extract tex
 # Tech stack Implemented
 
 1. Python Argparse for CLI
-2. ChromaDB as vector database
+2. Python >= version 3.9
 3. OpenAI gpt-4
+4. ChromaDB as vector database
 # Chatbot Project
 
 ## Features
