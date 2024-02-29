@@ -30,8 +30,8 @@ For any textual knowledge base (in our case, PDFs), we first need to extract tex
 
 ### 1. Clone the Repository
 
-```bash
-1) git clone repository-url
+
+1) git clone <repository-url>
 
 If you don't have Git installed, you can download the repository as a ZIP file from the repository's webpage and extract it to a local folder.
 
@@ -39,8 +39,8 @@ If you don't have Git installed, you can download the repository as a ZIP file f
 
 Change your current working directory to the project folder:
 
-'''bash
-Copy code
+
+. Copy code
 cd pdf-processing-chatbot
 
 
@@ -48,16 +48,17 @@ cd pdf-processing-chatbot
 
 It's a good practice to use a virtual environment to manage dependencies. Create a virtual environment:
 
-''''bash
 
-Copy code
+
+. Copy code
 python -m venv venv
+
 ### Activate the Virtual Environment:
 
 Activate the virtual environment:
 
-''''bash
-Copy code
+
+. Copy code
 .\venv\Scripts\activate
 
 
@@ -65,8 +66,8 @@ Copy code
 
 Install the required Python packages using pip:
 
-''''bash
-Copy code
+
+. Copy code
 pip install -r requirements.txt
 
 ### Set Up OpenAI API Key:
@@ -77,8 +78,8 @@ Obtain an API key from OpenAI and replace <OPENAI-API-KEY> in the code with your
 
 Run the following command to launch the Streamlit app:
 
-''''bash
-Copy code
+
+. Copy code
 streamlit run app.py
 
 This will start a local development server, and you can view the app by visiting the provided URL (usually http://localhost:8501) in your web browser.
