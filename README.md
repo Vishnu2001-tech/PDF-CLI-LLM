@@ -28,7 +28,6 @@ For any textual knowledge base (in our case, PDFs), we first need to extract tex
 ## Setup Instructions:
 ### Clone the Repository:
 
-### 1. Clone the Repository
 
 
 1) git clone <repository-url>
