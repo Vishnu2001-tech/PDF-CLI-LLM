@@ -30,12 +30,12 @@ For any textual knowledge base (in our case, PDFs), we first need to extract tex
 
 ### 1. Clone the Repository
 
-
-1) git clone <repository-url>
+```bash
+1) git clone repository-url
 
 If you don't have Git installed, you can download the repository as a ZIP file from the repository's webpage and extract it to a local folder.
 
-Navigate to the Project Directory:
+### Navigate to the Project Directory:
 
 Change your current working directory to the project folder:
 
