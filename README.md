@@ -25,60 +25,70 @@ For any textual knowledge base (in our case, PDFs), we first need to extract tex
 ## Prerequisites:
 1. Python (Version 3.7 or later)
 2. Git (Optional but recommended)
-## Steps:
+## Setup Instructions:
 ### Clone the Repository:
 
-### 1. Clone the Repository
 
-```bash
-git clone <repository-url>
+
+1) git clone <repository-url>
 
 If you don't have Git installed, you can download the repository as a ZIP file from the repository's webpage and extract it to a local folder.
 
-Navigate to the Project Directory:
+### Navigate to the Project Directory:
 
 Change your current working directory to the project folder:
 
-'''bash
-Copy code
-cd pdf-processing-chatbot
 
 
-Create a Virtual Environment:
+
+2) cd pdf-processing-chatbot
+
+
+### Create a Virtual Environment:
 
 It's a good practice to use a virtual environment to manage dependencies. Create a virtual environment:
 
-bash
-Copy code
-python -m venv venv
-Activate the Virtual Environment:
+
+
+
+
+3) python -m venv venv
+
+### Activate the Virtual Environment:
 
 Activate the virtual environment:
 
-bash
-Copy code
-.\venv\Scripts\activate
-Install Dependencies:
+
+
+
+4) .\venv\Scripts\activate
+
+
+### Install Dependencies:
 
 Install the required Python packages using pip:
 
-bash
-Copy code
-pip install -r requirements.txt
-Set Up OpenAI API Key:
+
+
+
+5) pip install -r requirements.txt
+
+### Set Up OpenAI API Key:
 
 Obtain an API key from OpenAI and replace <OPENAI-API-KEY> in the code with your actual API key.
 
-Run the Streamlit App:
+### Run the Streamlit App:
 
 Run the following command to launch the Streamlit app:
 
-bash
-Copy code
-streamlit run app.py
+
+
+
+6) streamlit run app.py
+
 This will start a local development server, and you can view the app by visiting the provided URL (usually http://localhost:8501) in your web browser.
 
-Interact with the App:
+### Interact with the App:
 
 Upload a PDF file using the provided file uploader.
 Set the word limit for text chunks and ask a question.
